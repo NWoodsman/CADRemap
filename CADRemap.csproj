@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{6DAF2B6E-6598-4C10-A27F-0BD3AF0C8982}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Lackey</RootNamespace>
-    <AssemblyName>Lackey</AssemblyName>
+    <RootNamespace>CadRemap</RootNamespace>
+    <AssemblyName>CADRemap</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

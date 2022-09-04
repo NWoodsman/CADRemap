@@ -7,7 +7,7 @@ using System.Windows.Forms;
 using WindowsInput;
 using WindowsInput.Native;
 
-namespace Lackey
+namespace CadRemap
 {
 	public class App : Form
 	{
@@ -65,7 +65,7 @@ namespace Lackey
 			trayMenu.MenuItems.Add("Exit", OnExit);
 
 			trayIcon = new NotifyIcon();
-			trayIcon.Text = "Lackey";
+			trayIcon.Text = "CADRemap";
 			trayIcon.Icon = Resources.Icon;
 			trayIcon.ContextMenu = trayMenu;
 			trayIcon.Visible = true;
